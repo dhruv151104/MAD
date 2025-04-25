@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+}
+
+#book-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.book {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    text-align: left;
+}
+
+.book img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.book h2, .book p {
+    margin: 5px 0;
+}
