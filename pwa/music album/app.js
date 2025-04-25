@@ -3,13 +3,13 @@ const albums = [
         name: "Album 1",
         singer: "Singer 1",
         songs: ["Song A", "Song B", "Song C"],
-        image: "album1.jpg"
+        image: "album1.png"
     },
     {
         name: "Album 2",
         singer: "Singer 2",
         songs: ["Song D", "Song E", "Song F"],
-        image: "album2.jpg"
+        image: "album2.png"
     }
 ];
 
